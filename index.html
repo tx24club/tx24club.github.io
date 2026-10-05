@@ -13,27 +13,38 @@
   <meta property="og:description" content="Free Fire Tournament, Tournament Registration, FF Tournament এবং Free Fire Diamond Top Up-এর জন্য TX24CLUB." />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="TX24CLUB" />
-  <meta property="og:image" content="https://awjsfskomgkclrjmkeqp.supabase.co/storage/v1/object/public/apks/brand_logo.png" />
+  <meta property="og:image" content="https://cdn.phototourl.com/member/2026-10-05-c5bb2603-72dc-4876-83fc-cf6303c62a30.png" />
   <meta property="og:image:alt" content="TX24CLUB official esports logo" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Free Fire Tournament Bangladesh | FF Tournament & Diamond Top Up" />
   <meta name="twitter:description" content="Free Fire Tournament, Tournament Registration, FF Tournament এবং Free Fire Diamond Top Up-এর জন্য TX24CLUB." />
-  <meta name="twitter:image" content="https://awjsfskomgkclrjmkeqp.supabase.co/storage/v1/object/public/apks/brand_logo.png" />
+  <meta name="twitter:image" content="https://cdn.phototourl.com/member/2026-10-05-c5bb2603-72dc-4876-83fc-cf6303c62a30.png" />
   <meta name="twitter:image:alt" content="TX24CLUB official esports logo" />
   <meta name="google-site-verification" content="bC4k1p6Gwr7UEXWktqAedxSTwmJ2a0oWjNlUExNdeWQ" />
   
-  <!-- Canonical URL is generated from the real deployed HTTPS origin by the SEO helper below.
-       No fake/hard-coded domain is used because the production domain was not supplied. -->
+  <link rel="canonical" href="https://tx24club.github.io/" />
+  <link rel="icon" type="image/png" href="https://cdn.phototourl.com/member/2026-10-05-c5bb2603-72dc-4876-83fc-cf6303c62a30.png" />
+  <link rel="shortcut icon" type="image/png" href="https://cdn.phototourl.com/member/2026-10-05-c5bb2603-72dc-4876-83fc-cf6303c62a30.png" />
+  <link rel="apple-touch-icon" href="https://cdn.phototourl.com/member/2026-10-05-c5bb2603-72dc-4876-83fc-cf6303c62a30.png" />
+  <meta property="og:url" content="https://tx24club.github.io/" />
 
   <script type="application/ld+json" id="tx24-seo-schema">{
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "TX24CLUB",
-    "description": "Free Fire Tournament, tournament registration, FF tournament and Free Fire Diamond Top Up platform.",
+    "alternateName": ["TX 24 CLUB", "TX24CLUB ESPORTS"],
+    "url": "https://tx24club.github.io/",
+    "image": "https://cdn.phototourl.com/member/2026-10-05-c5bb2603-72dc-4876-83fc-cf6303c62a30.png",
+    "description": "Free Fire Tournament Bangladesh, tournament registration, FF tournament and Free Fire Diamond Top Up platform.",
     "inLanguage": "bn",
     "publisher": {
       "@type": "Organization",
-      "name": "TX24CLUB Team"
+      "name": "TX24CLUB Team",
+      "url": "https://tx24club.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.phototourl.com/member/2026-10-05-c5bb2603-72dc-4876-83fc-cf6303c62a30.png"
+      }
     }
   }</script>
 
@@ -1332,7 +1343,7 @@
         setMeta('meta[name="twitter:description"]', "content", safeDescription);
 
         if (window.location.protocol === "http:" || window.location.protocol === "https:") {
-          const canonicalUrl = window.location.origin + window.location.pathname.replace(/\/+$/, "/");
+          const canonicalUrl = "https://tx24club.github.io/";
 
           let canonical = document.querySelector('link[rel="canonical"]');
           if (!canonical) {
@@ -1496,8 +1507,8 @@
     /* ★ ফিক্সড ক্লাউড লোগো ইঞ্জিন - ডাটাবেস ছাড়া ★ */
     function applyPlatformLogo() {
       // এই URL টির মাধ্যমে Supabase Storage থেকে ডাইরেক্ট লোগো লোড হবে
-      const supabaseLogoUrl = "https://awjsfskomgkclrjmkeqp.supabase.co/storage/v1/object/public/apks/brand_logo.png";
-      const fallbackLogoUrl = "https://img.sanishtech.com/u/d9e95a83e8e3ab0c761c1b487e76d5b8.jpeg";
+      const supabaseLogoUrl = "https://cdn.phototourl.com/member/2026-10-05-c5bb2603-72dc-4876-83fc-cf6303c62a30.png";
+      const fallbackLogoUrl = "https://cdn.phototourl.com/member/2026-10-05-c5bb2603-72dc-4876-83fc-cf6303c62a30.png";
       const cacheTime = Math.floor(Date.now() / 60000); // প্রতি ১ মিনিটে একবার নতুন ক্যাশ তৈরি করবে
       const testLogoUrl = supabaseLogoUrl + "?v=" + cacheTime;
 
